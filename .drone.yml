@@ -29,6 +29,8 @@ steps:
     - push
     - tag
 
+    
+
 - name: publish_agent
   image: plugins/docker
   settings:
